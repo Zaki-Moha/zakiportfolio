@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kashka</title>
+    <link rel="icon" type="image/x-icon" href="assets/11.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Poppins:wght@600&family=Open+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Header Part Starts -->
+    <header class="navbar">
+      <div class="header-content">
+        <h1 class="logo">
+          <a href="#hero">Kashka <span class="highlight">Prog</span></a>
+        </h1>
+        <nav>
+          <a href="#hero">🏠 Home</a>
+          <a href="#about">ℹ️ About</a>
+          <a href="#skills">💡 Skills</a>
+          <a href="#projects">📂 Projects</a>
+        </nav>
+        <button class="btn">
+          <a href="#contact">📞 Contact</a>
+        </button>
+      </div>
+    </header>
+    <!-- Header Part Ends -->
+
+    <!-- Hero Section Star -->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="bar">
+          <div class="ball"></div>
+        </div>
+        <h1>Hi, I'm Zakarie Mohamed</h1>
+        <p>A Lazy Web Developer Building Crazy Projects.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
+
+    <!-- About Section Star-->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm a computer science student passionate about web development.
+        I'm currently learning the MERN stack and building projects to improve
+        my skills.
+      </p>
+    </section>
+    <!-- About Section Ends -->
+
+    <!-- Projects Section Start-->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="assets/project1.PNG" alt="Project 1" class="project-img" />
+          <h3>Color Flipper</h3>
+          <p>The Color Flipper is a simple web app that lets users change the background color. Users can pick from predefined colors or generate random ones. Built with HTML, CSS, and JavaScript, it showcases DOM manipulation and responsive design.</p>
+          <a href="colorFlipper/index.html" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <img src="assets/Guessing Game.PNG" alt="Project 2" class="project-img" />
+          <h3> Two-Player Number Guessing Game</h3>
+          <p>A fun web game where Player One sets a number (1–10), and Player Two has 5 chances to guess it. Built with HTML, CSS, and JavaScript, it features input validation, dynamic UI updates, and a clean, responsive design.</p>
+          <a href="Guessing Game/index.html" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section Ends-->
+
+
+    <!-- Skills Section Start-->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li><i class="fab fa-html5"></i> HTML</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fab fa-js"></i> JavaScript</li>
+        <li><i class="fab fa-react"></i> React (Learning)</li>
+      </ul>
+    </section>
+    <!-- Skills Section Ends-->
+
+    <!-- Contact Section Star -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <div class="social-links">
+        <a href="https://github.com/Zaki-Moha" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/zakarie-mohmed-14096923b/" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </section>
+    <!-- Contact Section Star -->
+
+    <!-- Footer Part Star-->
+    <footer>
+      <p>&copy; 2025 Zakarie Mohamed</p>
+    </footer>
+    <!-- Footer Part End-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
